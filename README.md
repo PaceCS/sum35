@@ -1,22 +1,19 @@
-# paceKnights()
+# sum35()
 
-In this assignment, you will be creating functions **paceKnightsFor** and **paceKnightsWhile**.  The input to each will be a number corresponding to the number of rows of output.  If the output is a multiple of 3, then you will output 'Pace'.  If the output is a multiple of 5, then you will output 'Knights'.  If the output is a multiple of 3 and a multiple of 5, then you will output 'Pace Knights'.  If the output is neither a multiple of 3 or a multiple of 5, then you will output the number. To do this, you will use 'for' loops in **paceKnightsFor** and 'while' loops in **paceKnightsWhile**.
+In this assignment, you will be creating a function **sum35** that solves a math problem.  The input to your function will be a number *N*.  The problem is to find all the multiples of 3 and 5 that are less than *N* and to add them up.  The function should then print the number of multiples along with the sum.
 
 ### Examples:
 
 Input:
 
 ```
-5
+6
 ```
 
 Output:
 ```
-1
-2
-Pace
-4
-Knights
+There are 2 multiples of 3 and 5 that are less than 6.
+Their sum is 8.
 ```
 ---
 
@@ -28,24 +25,20 @@ Input:
 
 Output:
 ```
-1
-2
-Pace
-4
-Knights
-Pace
-7
-8
-Pace
-Knights
-11
-Pace
-13
-14
-Pace Knights
-16
-17
-Pace
-19
-Knights
+There are 8 multiples of 3 and 5 that are less than 20.
+Their sum is 78.
+```
+
+---
+
+Input:
+
+```
+1000
+```
+
+Output:
+```
+There are 466 multiples of 3 and 5 that are less than 1000.
+Their sum is 233168.
 ```

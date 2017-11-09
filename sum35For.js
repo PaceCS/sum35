@@ -5,6 +5,7 @@ function sum35For(N) {
 
 }
 
+//Try out your function here.
 sum35For(6);
 sum35For(20);
 sum35For(1000);

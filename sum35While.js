@@ -5,6 +5,7 @@ function sum35While(N) {
 
 }
 
+//Try out your function here.
 sum35While(6);
 sum35While(20);
 sum35While(1000);
